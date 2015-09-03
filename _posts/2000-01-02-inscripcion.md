@@ -1,5 +1,5 @@
 ---
-title: ""
+title: "Inscripción"
 bg: purple
 color: white
 fa-icon: check-square-o

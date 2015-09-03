@@ -1,67 +1,64 @@
+---
+---
 <!DOCTYPE html>
-<html lang="en-us">
-  <head>
-    <meta charset="UTF-8">
-    <title>Talleres FIFA Bs As by fifabsas</title>
-    <meta name="viewport" content="width=device-width, initial-scale=1">
-    <link rel="stylesheet" type="text/css" href="stylesheets/normalize.css" media="screen">
-    <link href='https://fonts.googleapis.com/css?family=Open+Sans:400,700' rel='stylesheet' type='text/css'>
-    <link rel="stylesheet" type="text/css" href="stylesheets/stylesheet.css" media="screen">
-    <link rel="stylesheet" type="text/css" href="stylesheets/github-light.css" media="screen">
-  </head>
-  <body>
-    <section class="page-header">
-      <h1 class="project-name">Talleres FIFA Bs As</h1>
-      <h2 class="project-tagline"></h2>
-      <a href="https://github.com/fifabsas/talleresfifabsas" class="btn">View on GitHub</a>
-      <a href="https://github.com/fifabsas/talleresfifabsas/zipball/master" class="btn">Download .zip</a>
-      <a href="https://github.com/fifabsas/talleresfifabsas/tarball/master" class="btn">Download .tar.gz</a>
-    </section>
+<html dir="ltr" lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>{{ site.title }}</title>
+	<meta name="keywords" content="{{ site.keywords }}">
+	<meta name="description" content="{{ site.description }}">
+  <link rel="stylesheet" href="combo.css">
+  <link href='http://fonts.googleapis.com/css?family=Raleway:400,300,700' rel='stylesheet' type='text/css'>
+  <link rel="stylesheet" href="//netdna.bootstrapcdn.com/font-awesome/4.2.0/css/font-awesome.min.css">
+  {% if site.favicon %}<link rel="shortcut icon" href="{{ site.favicon }}" type="image/x-icon">{% endif %}
+	{% if site.touch_icon %}<link rel="apple-touch-icon" href="{{ site.touch_icon }}">{% endif %}
+</head>
+<body>
+  <div id="main">
 
-    <section class="main-content">
-      <h1>
-<a id="talleres-fifa-bs-as" class="anchor" href="#talleres-fifa-bs-as" aria-hidden="true"><span class="octicon octicon-link"></span></a>Talleres FIFA Bs As</h1>
+    <nav><ul>
+      {% for node in site.posts reversed %}
+        {% capture id %}{{ node.id | remove:'/' | downcase }}{% endcapture %}
+        <li class="p-{{id}}"><a href="#{{id}}">{{node.title}}</a></li>
+      {% endfor %}
+    </ul></nav>
 
-<p><img src="https://github.com/Fifabsas/TayeresFifabsas/raw/master/difusion.png" alt="Tayer de Python"></p>
 
-<h3>
-<a id="inscripción" class="anchor" href="#inscripci%C3%B3n" aria-hidden="true"><span class="octicon octicon-link"></span></a>Inscripción</h3>
+    {% for page in site.posts reversed %}
+      {% capture id %}{{ page.id | remove:'/' | downcase }}{% endcapture %}
+      <div id="{{id}}" class="section p-{{id}}">
+        {% if page.icon %}
+        <div class="subtlecircle sectiondivider imaged">
+          <img src="{{page.icon}}" alt="section icon" />
+          <h5 class="icon-title">{{ page.title }}</h5>
+        </div>
+        {% elsif page.fa-icon %}
+        <div class="subtlecircle sectiondivider faicon">
+          <span class="fa-stack">
+            <i class="fa fa-circle fa-stack-2x"></i>
+            <i class="fa fa-{{ page.fa-icon }} fa-stack-1x"></i>
+          </span>
+          <h5 class="icon-title">{{ page.title }}</h5>
+        </div>
+        {% endif %}
+        <div class="container {{ page.style }}">
+          {{ page.content }}
+        </div>
+      </div>
+    {% endfor %}
 
-<p>Para mejorar nuestros talleres te pedimos que completes <a href="http://goo.gl/forms/x8ZkT2g026">un formulario</a>, que se tarda tres segundos en completar (cronometrados). Obviamente el formulario no es requisito para tomar parte del taller.</p>
 
-<h3>
-<a id="talleres" class="anchor" href="#talleres" aria-hidden="true"><span class="octicon octicon-link"></span></a>Talleres</h3>
+    <div id="footer" class="section text-white">
+      <div class="container">
+        {% capture foottext %} {% include footer.md %} {% endcapture %}
+        {{ foottext | markdownify }}
+      </div>
+    </div>
+  </div>
 
-<h4>
-<a id="latex" class="anchor" href="#latex" aria-hidden="true"><span class="octicon octicon-link"></span></a>LaTeX</h4>
-
-<p>Para todo el taller de LaTeX (y para nuestros tps de labo también) usamos <a href="http://www.sharelatex.com">ShareLatex</a>, que te permite tener editar varios un mismo archivo, mantieniendo un historial de los cambios y otras cositas más muy útiles. </p>
-
-<p><a href="http://github.com/fifabsas/talleresfifabsas/tree/master/latex">Recursos LaTeX</a></p>
-
-<h4>
-<a id="python" class="anchor" href="#python" aria-hidden="true"><span class="octicon octicon-link"></span></a>Python</h4>
-
-<p>Nosotros usamos Python 2.7, que lo podés bajar con todas las librerías en el paquete <a href="http://continuum.io/downloads">Anaconda</a>. Como entorno de desarrollo podemos usar Spyder, que lo instala Anaconda, o podemos usar IPython, en la versión notebook, que te da un entorno muy interactivo web.  </p>
-
-<p>Para los que no llegaron a anotar o se lo perdieron pero quieren venir al segundo, <a href="https://github.com/Fifabsas/TayeresFifabsas/raw/master/python/introductorio/presentacion.pdf">acá está la presentación</a>.<br>
-Si lograste terminar <a href="https://github.com/Fifabsas/TayeresFifabsas/raw/master/python/introductorio/ejercicios.pdf">la guía</a>, no vas a tener problemas en el próximo encuentro. Aún así, venite. <em>¡No te lo pierdas!</em></p>
-
-<p><a href="http://github.com/fifabsas/talleresfifabsas/tree/master/python">Recursos Python</a></p>
-
-<h3>
-<a id="más-info" class="anchor" href="#m%C3%A1s-info" aria-hidden="true"><span class="octicon octicon-link"></span></a>Más info</h3>
-
-<p>Para consultas tenemos un <a href="https://www.facebook.com/groups/303815376436624/">grupo en Facebook</a> y además podés mandar un mail a <a href="mailto:fifabsas@gmail.com">fifabsas@gmail.com</a></p>
-
-      <footer class="site-footer">
-        <span class="site-footer-owner"><a href="https://github.com/fifabsas/talleresfifabsas">Talleres FIFA Bs As</a> is maintained by <a href="https://github.com/fifabsas">fifabsas</a>.</span>
-
-        <span class="site-footer-credits">This page was generated by <a href="https://pages.github.com">GitHub Pages</a> using the <a href="https://github.com/jasonlong/cayman-theme">Cayman theme</a> by <a href="https://twitter.com/jasonlong">Jason Long</a>.</span>
-      </footer>
-
-    </section>
-
-  
-  </body>
+{% include analytics.html %}
+</body>
+<script src="//ajax.googleapis.com/ajax/libs/jquery/2.1.1/jquery.min.js"></script>
+<script src="site.js"></script>
 </html>

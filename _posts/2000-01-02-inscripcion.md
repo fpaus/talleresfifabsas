@@ -3,6 +3,7 @@ title: "Inscripción"
 bg: purple
 color: white
 fa-icon: check-square-o
+style: center
 ---
 
 Para mejorar nuestros talleres te pedimos que completes el siguiente formulario  

@@ -6,6 +6,7 @@
 [Inscripciones](inscripcion.md)
 
 [Python]()
+
   * [Introducción](python/intro.md)
   * [Recursos del taller](python/taller.md)
   * [Instalación](python/install.md)

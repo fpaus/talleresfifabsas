@@ -1,17 +1,19 @@
+# Python
 
-## Anuncios
+## ¿Qué es Python?
+Es un lenguaje de programación de uso general (sirve para *casi* cualquier cosa) con una sintaxis y una estructura fácil de escribir y leer. Además, la comunidad de Python es muy activa, y ello conlleva a que exista alguien que ya haya resuelto tu problema antes
 
-En el segundo encuentro vamos a enfrentar una práctica de laboratorio usual, y mostrar las herramientas de graficación y análisis de datos usuales. Si tenemos tiempo, vamos a adquirir los datos en el taller!
+![](http://imgs.xkcd.com/comics/python.png  "Puede ser literal lo que sucede en esta famosa tira cómica")
 
-Para los que no llegaron a anotar o se lo perdieron pero quieren venir al segundo, [acá está el notebook que usamos](https://github.com/fifabsas/talleresfifabsas/blob/master/python/introductorio/introduccion.ipynb) (deben tener Jupyter o IPython Notebook, que viene con Anaconda, para correrlo, o desde acá se puede ver) y también la [presentación](https://github.com/fifabsas/talleresfifabsas/blob/master/python/introductorio/presentacion.pdf) que usamos alguna vez. Si lograste terminar [la guía](https://github.com/Fifabsas/talleresfifabsas/raw/master/python/introductorio/ejercicios.pdf), no vas a tener problemas en el próximo encuentro. Aún así, venite. *¡No te lo pierdas!*
+## ¿Cómo instalar Python?
+Si tenés Windows/Linux/OS X la mejor opción es instalar [Anaconda](http://continuum.io/downloads), que te permite instalar en una carpeta de tu usuario (sin permiso de administrador) todas las herramientas y además se configura para poder utilizarlo (se agrega al PATH, accesos directos, etc).
 
-## Programas
-* [Anaconda](http://continuum.io/downloads). 
-* Spyder
-* IPython notebook
+## ¿Cómo programo Python?
+Con cualquier editor de texto se puede editar los archivos de python (.py) y con la consola se puede ejecutar. Obviamente, *no* recomendamos esta metodología. **Spyder** es un IDE (editor integrado de desarrollo) que se parece mucho a Matlab, lo que ayuda a la migración. Nosotros usamos mucho el **Notebook de Jupyter** (antes conocido como IPython), por muchas razones además de la presentación. Estos programas vienen instalados con Anaconda 
+
   
 
-## Elementos del taller
+## Material del taller
 * [Presentación de taller introductorio](https://github.com/fifabsas/talleresfifabsas/blob/master/python/introductorio/presentacion.pdf)  
 * [Cuaderno del taller introductorio](https://github.com/fifabsas/talleresfifabsas/blob/master/python/introductorio/introduccion.ipynb)  
 * [Ejercicios de taller introductorio](https://github.com/fifabsas/talleresfifabsas/blob/master/python/introductorio/ejercicios.pdf)
@@ -23,10 +25,3 @@ Para los que no llegaron a anotar o se lo perdieron pero quieren venir al segund
 ## Documentación  
 * Oficial [docs.python.org](http://docs.python.org)
 * Tutorial: [Learn Python](http://www.learnpython.org/)
-
-
-
-
-
-
-

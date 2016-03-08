@@ -1,8 +1,7 @@
 #Instalación de Python
 
 ## Anaconda
-
-![](img/install_python/anaconda_1.jpg)
+Acá tenemos el tutorial de como instalar Anaconda, una distribución de librerías de Python lista para el trabajo del científico.
 
 ### En Windows
 ![](img/install_python/anaconda_win_1.jpg)

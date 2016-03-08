@@ -1,6 +1,6 @@
 [gimmick: math]()
 
-#$$\Latex$$
+#$$\LaTeX$$
 
 ## Programas
 * [MikTeX](http://miktex.org/download) (Windows).  

@@ -3,7 +3,7 @@
 ## ¿Qué es Python?
 Es un lenguaje de programación de uso general (sirve para *casi* cualquier cosa) con una sintaxis y una estructura fácil de escribir y leer. Además, la comunidad de Python es muy activa, y ello conlleva a que exista alguien que [ya](http://biopython.org/wiki/Main_Page) [haya](http://www.sympy.org/es) [resuelto](http://www.pygame.org/news.html) [tu](http://www.secdev.org/projects/scapy/) [problema](http://www.sqlalchemy.org/) [antes](http://www.python-requests.org/), por medio de una librería (que corresponde a un conjunto de archivos de python ya codificado).
 
-![](http://imgs.xkcd.com/comics/python.png  "Puede ser literal lo que sucede en esta famosa tira cómica")
+![](http://es.xkcd.com/site_media/strips/python.png  "Chicos, no lo intenten en casa.")
 
 ## ¿Cómo instalar Python?
 Si tenés Windows/Linux/OS X la mejor opción es instalar [Anaconda](http://continuum.io/downloads), que te permite instalar en una carpeta de tu usuario (sin permiso de administrador) todas las herramientas y además se configura para poder utilizarlo (se agrega al PATH, accesos directos, etc). Si tenés Linux es muy probable que tengas ya Python, pero recomendamos igualmente instalar Anaconda por todos los paquetes que trae.

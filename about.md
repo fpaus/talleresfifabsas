@@ -1,10 +1,4 @@
----
-title: "Nosotros"
-bg: turquoise
-color: white
-fa-icon: users
-style: center
----
+# FIFA
 
 La FIFA (Federación Interestudiantil de Físicos Argentinos) es la federación a través de la cual los estudiantes de física de todo el país organizamos encuentros y actividades para discutir cuestiones gremiales, académicas o de política científica. También es el espacio que tenemos los estudiantes (muchas veces dispersos cada uno en sus estudios) para conocernos mejor los unos a los otros.
 

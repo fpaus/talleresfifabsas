@@ -1,10 +1,4 @@
----
-title: "Inscripción"
-bg: purple
-color: white
-fa-icon: check-square-o
-style: center
----
+# Inscripción
 
 #### Para mejorar nuestros talleres te pedimos que completes el [siguiente formulario](http://goo.gl/forms/EaZxy7R1My). **No es requisito** para estar en el taller, pero nos ayuda a mejorarlo.
 

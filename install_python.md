@@ -2,19 +2,19 @@
 
 ## Anaconda
 
-![](/img/tutorial_instalacion/anaconda_1.jpg)
+![](/img/install_python/anaconda_1.jpg)
 
 ### En Windows
-![](/img/tutorial_instalacion/anaconda_win_1.jpg)
-![](/img/tutorial_instalacion/anaconda_win_2.jpg)
-![](/img/tutorial_instalacion/anaconda_win_3.jpg)
-![](/img/tutorial_instalacion/anaconda_win_4.jpg)
-![](/img/tutorial_instalacion/anaconda_win_5.jpg)
-![](/img/tutorial_instalacion/anaconda_win_6.jpg)
-![](/img/tutorial_instalacion/anaconda_win_7.jpg)
+![](/img/install_python/anaconda_win_1.jpg)
+![](/img/install_python/anaconda_win_2.jpg)
+![](/img/install_python/anaconda_win_3.jpg)
+![](/img/install_python/anaconda_win_4.jpg)
+![](/img/install_python/anaconda_win_5.jpg)
+![](/img/install_python/anaconda_win_6.jpg)
+![](/img/install_python/anaconda_win_7.jpg)
 
 ### En Linux
-![](/img/tutorial_instalacion/anaconda_nix_1.jpg)
+![](/img/install_python/anaconda_nix_1.jpg)
 
 ### Docker
 Necesitas instalar [Docker](https://www.docker.com). Para Windows/OS X es bajar el [Docker Toolbox](https://www.docker.com/products/docker-toolbox). Para usar Anaconda ejecutar`(en el consola de Docker o con sudo en Linux)

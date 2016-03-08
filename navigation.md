@@ -1,9 +1,13 @@
+# Talleres FIFA Bs As
+
 [gimmick:theme](readable)
 
 [Próximo taller](index.md)
 [Inscripciones](inscripcion.md)
-[Python](python.md)
+[Python]()
+  * [Recursos](python.md)
   * [Instalación](install_python.md)
 [LaTeX](latex.md)
+  * [Recursos](latex.md)
   * [Instalación](install_latex.md)
 [FIFA](about.md)

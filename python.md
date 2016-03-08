@@ -1,4 +1,4 @@
-# Python
+# [](https://svn.python.org/www/branches/rest2web/beta.python.org/resources/design/logo/python-logo-master-flat.png "Logo")
 
 ## ¿Qué es Python?
 Es un lenguaje de programación de uso general (sirve para *casi* cualquier cosa) con una sintaxis y una estructura fácil de escribir y leer. Además, la comunidad de Python es muy activa, y ello conlleva a que exista alguien que [ya](http://biopython.org/wiki/Main_Page) [haya](http://www.sympy.org/es) [resuelto](http://www.pygame.org/news.html) [tu](http://www.secdev.org/projects/scapy/) [problema](http://www.sqlalchemy.org/) [antes](http://www.python-requests.org/), por medio de una librería (que corresponde a un conjunto de archivos de python ya codificado).

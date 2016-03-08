@@ -4,16 +4,16 @@
 Acá tenemos el tutorial de como instalar Anaconda, una distribución de librerías de Python lista para el trabajo del científico.
 
 ### En Windows
-![](img/install_python/anaconda_win_1.jpg)
-![](img/install_python/anaconda_win_2.jpg)
-![](img/install_python/anaconda_win_3.jpg)
-![](img/install_python/anaconda_win_4.jpg)
-![](img/install_python/anaconda_win_5.jpg)
-![](img/install_python/anaconda_win_6.jpg)
-![](img/install_python/anaconda_win_7.jpg)
+![](../img/install_python/anaconda_win_1.jpg)
+![](../img/install_python/anaconda_win_2.jpg)
+![](../img/install_python/anaconda_win_3.jpg)
+![](../img/install_python/anaconda_win_4.jpg)
+![](../img/install_python/anaconda_win_5.jpg)
+![](../img/install_python/anaconda_win_6.jpg)
+![](../img/install_python/anaconda_win_7.jpg)
 
 ### En Linux
-![](img/install_python/anaconda_nix_1.jpg)
+![](../img/install_python/anaconda_nix_1.jpg)
 
 ### Docker
 Necesitas instalar [Docker](https://www.docker.com). Para Windows/OS X es bajar el [Docker Toolbox](https://www.docker.com/products/docker-toolbox). Para usar Anaconda ejecutar`(en el consola de Docker o con sudo en Linux)

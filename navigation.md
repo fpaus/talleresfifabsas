@@ -1,4 +1,4 @@
 [Inicio](index.md)
-[Python](pythonmd)
+[Python](python.md)
 [LaTeX](latex.md)
 

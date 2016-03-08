@@ -1,10 +1,3 @@
----
-title: "Python"
-bg: green
-color: white
-icon: img/python.png
-style: 
----
 
 ## Anuncios
 

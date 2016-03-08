@@ -1,10 +1,4 @@
----
-title: "LaTeX"
-bg: blue
-color: white
-icon: img/latex.png
----
-
+#LaTeX
 
 ## Programas
 * [MikTeX](http://miktex.org/download) (Windows).  

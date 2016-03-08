@@ -5,10 +5,10 @@
 [Próximo taller](index.md)
 [Inscripciones](inscripcion.md)
 
-[Python](python.md)
-
-  * [Recursos](python.md)
-  * [Instalación](install_python.md)
+[Python]()
+  * [Introducción](python/intro.md)
+  * [Recursos del taller](python/taller.md)
+  * [Instalación](python/install.md)
 
 [LaTeX]()
 

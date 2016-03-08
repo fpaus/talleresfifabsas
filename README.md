@@ -1,26 +1,13 @@
 # Página de los talleres de la FIFA Bs As
 
-Ejemplo online del tema utilizado [t413.com/SinglePaged](http://t413.com/SinglePaged)
-
+Creada con [MDWiki](http://dynalon.github.io/mdwiki/)
 
 ## Uso
+* Agregar archivo .md en algún lugar del repositorio (en la branch gh-pages). Puede ser en una carpeta, no solo en la carpeta raíz.
+* Agregar la ruta relativa (tipo latex/archivo.md) en el navigation.md, respetando el orden que se requiera o en el submenu
+* El estilo es cambia en navigation.md
+* Agregados varios y algunos ejemplos en la [página de MDWiki](http://dynalon.github.io/mdwiki)`
 
-- Editar `_config.yml` con el titulo, descripción y keyworkds
-- Crear entradas en `_posts/` ordenadas por fecha. La fecha no es relevante, si el orden.
-- Cada entrada puede ser:
-
-```
-  ---
-  title: "home"
-  bg: white     #defined in _config.yml, can use html color like '#010101'
-  color: black  #text color
-  style: center
-  icon: #Imagen para icono
-  fa-icon: #ICONO Font Awesome (sin el fa- delante)
-  ---
-  
-  Acá viene markdown y HTML, todo lo que lea Kramerdown
-  
-```
-Los íconos de Font Awesome están [acá](http://fortawesome.github.io/Font-Awesome)
-
+## Markdown
+* [Cheatsheet](https://github.com/adam-p/markdown-here/wiki/Markdown-Cheatsheet)
+* Se puede agregar HTML, que va a ser interpretado por el cliente web`
